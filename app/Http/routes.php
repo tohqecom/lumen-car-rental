@@ -18,7 +18,7 @@ $app->get('/', function () use ($app) {
 /**
  * api v1 routes group
  */
-$app->group(['prefix'=>'api/v1','namespace'=>'App\Http\Controllers'],function() use($app){
+$app->group(['prefix'=>'api/v1'],function() use($app){
     /**
      * CRUD client routes
      */
